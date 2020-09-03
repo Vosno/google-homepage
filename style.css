@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+#googleImg {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+.formContainer {
+    border: 1px solid rgb(231, 231, 231);
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 25px;
+}
+input[type=text]{
+    border: none;
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 25px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+}
+li {
+    float: right;
+}
+li a {
+    display: inline-block;
+    margin: 0;
+    color: black; 
+    padding: 10px;
+    text-decoration: none;
+  }
+  a {
+      font-size: 14px;
+      text-decoration: none;
+      color: rgb(41, 41, 41);
+  }
+.logInBtn {
+    background-color: rgb(40, 118, 190);
+    color: white;
+}
+.containerBtnUnder {
+    width: fit-content;
+    margin: auto;
+}
+.btnUnderSearch {
+    background-color: rgb(231, 231, 231);
+    display: inline-block;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+footer {
+    background-color: rgb(231, 231, 231);
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+}
+footer p {
+    margin: 0;
+    margin-left: 20px;
+    padding: 10px;
+    width: fit-content;
+    color: rgb(88, 88, 88);
+}
+.footerNav {
+    padding: 0 20px;
+    border-top: 1px solid grey;
+}
+.footerLeft {
+    float: left;
+}
+.footerRight {
+    float: right;
+}
